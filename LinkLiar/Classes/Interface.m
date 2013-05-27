@@ -94,4 +94,22 @@
   return [[NSString new] stringByAppendingFormat:@"ifconfig %@ ether %@", interfaceBSDName, address];
 }
 
+- (void) bringIntfcDown {
+    if (!self.kind) return;
+    NSDictionary *error = [NSDictionary new];
+    NSString *command = [[NSString new] stringByAppendingFormat:@"ifconfig %@ down", self.BSDName];
+    NSString *script = [[NSString new] stringByAppendingFormat:@"do shell script \"%@\" with administrator privileges", command];
+    NSAppleScript *appleScript = [[NSAppleScript new] initWithSource:script];
+    [appleScript executeAndReturnError:&error];
+}
+
+- (void) bringIntfcUp {
+    if (!self.kind) return;
+    NSDictionary *error = [NSDictionary new];
+    NSString *command = [[NSString new] stringByAppendingFormat:@"ifconfig %@ up", self.BSDName];
+    NSString *script = [[NSString new] stringByAppendingFormat:@"do shell script \"%@\" with administrator privileges", command];
+    NSAppleScript *appleScript = [[NSAppleScript new] initWithSource:script];
+    [appleScript executeAndReturnError:&error];
+}
+
 @end

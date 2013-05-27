@@ -80,7 +80,7 @@
 }
 
 - (IBAction) randomizeMACInTextField:sender {
-  [addressTextField setStringValue:[MACAddresss random]];
+    [addressTextField setStringValue:[NSString stringWithFormat: @"%@%@", [wifi.softMAC substringWithRange:NSMakeRange(0, 9)], [MACAddresss random]]];
 }
 
 - (IBAction) showHelp:sender {
@@ -109,6 +109,8 @@
 
 - (void) doApplyAddress:(MACAddresss*)address onInterface:(Interface*)interface {
   [interface applyAddress:address];
+  [interface bringIntfcDown];
+  [interface bringIntfcUp];
   [changePopover close];
    addressTextField.stringValue = address.string;
   [self refreshGUI:self];

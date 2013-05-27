@@ -2,13 +2,13 @@
 <archive type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="8.00">
 	<data>
 		<int key="IBDocument.SystemTarget">1080</int>
-		<string key="IBDocument.SystemVersion">12C2034</string>
-		<string key="IBDocument.InterfaceBuilderVersion">2844</string>
-		<string key="IBDocument.AppKitVersion">1187.34</string>
-		<string key="IBDocument.HIToolboxVersion">625.00</string>
+		<string key="IBDocument.SystemVersion">12D78</string>
+		<string key="IBDocument.InterfaceBuilderVersion">3084</string>
+		<string key="IBDocument.AppKitVersion">1187.37</string>
+		<string key="IBDocument.HIToolboxVersion">626.00</string>
 		<object class="NSMutableDictionary" key="IBDocument.PluginVersions">
 			<string key="NS.key.0">com.apple.InterfaceBuilder.CocoaPlugin</string>
-			<string key="NS.object.0">2844</string>
+			<string key="NS.object.0">3084</string>
 		</object>
 		<array key="IBDocument.IntegratedClassDependencies">
 			<string>NSButton</string>
@@ -319,7 +319,6 @@
 							<string key="NSFrame">{{625, 17}, {25, 25}}</string>
 							<reference key="NSSuperview" ref="1037298196"/>
 							<reference key="NSWindow"/>
-							<reference key="NSNextKeyView"/>
 							<string key="NSReuseIdentifierKey">_NS:3837</string>
 							<bool key="NSEnabled">YES</bool>
 							<object class="NSButtonCell" key="NSCell" id="144716306">
@@ -350,8 +349,7 @@
 							<object class="NSTextFieldCell" key="NSCell" id="1052766846">
 								<int key="NSCellFlags">67108864</int>
 								<int key="NSCellFlags2">272630272</int>
-								<string type="base64-UTF8" key="NSContents">TGlua0xpYXIgMC4xLjEKwqkgMjAxMyBmdW5rZW5zdHVybS5jb20KUHVibGlzaGVkIHVuZGVyIE1JVCBs
-aWNlbnNlA</string>
+								<string type="base64-UTF8" key="NSContents">TGlua0xpYXIgdk1FUwrCqSAyMDEzClB1Ymxpc2hlZCB1bmRlciBNSVQgbGljZW5zZQ</string>
 								<object class="NSFont" key="NSSupport" id="22">
 									<string key="NSName">LucidaGrande</string>
 									<double key="NSSize">9</double>
@@ -376,7 +374,7 @@ aWNlbnNlA</string>
 							<object class="NSTextFieldCell" key="NSCell" id="1019416236">
 								<int key="NSCellFlags">70254657</int>
 								<int key="NSCellFlags2">272630784</int>
-								<string key="NSContents">www.github.com/halo/LinkLiar</string>
+								<string key="NSContents">www.github.com/mesmesgit/LinkLiar</string>
 								<reference key="NSSupport" ref="22"/>
 								<string key="NSCellIdentifier">_NS:3805</string>
 								<reference key="NSControlView" ref="568913858"/>
@@ -391,7 +389,7 @@ aWNlbnNlA</string>
 					<reference key="NSWindow"/>
 					<reference key="NSNextKeyView" ref="189580193"/>
 				</object>
-				<string key="NSScreenRect">{{0, 0}, {1366, 746}}</string>
+				<string key="NSScreenRect">{{0, 0}, {1440, 878}}</string>
 				<string key="NSMinSize">{224.66399999999999, 32}</string>
 				<string key="NSMaxSize">{10000000000000, 10000000000000}</string>
 				<bool key="NSWindowIsRestorable">YES</bool>
@@ -418,7 +416,7 @@ aWNlbnNlA</string>
 				<bool key="NSAnimates">YES</bool>
 			</object>
 			<object class="NSCustomView" id="57894147">
-				<nil key="NSNextResponder"/>
+				<reference key="NSNextResponder"/>
 				<int key="NSvFlags">268</int>
 				<array class="NSMutableArray" key="NSSubviews">
 					<object class="NSButton" id="309445474">
@@ -426,6 +424,7 @@ aWNlbnNlA</string>
 						<int key="NSvFlags">268</int>
 						<string key="NSFrame">{{174, 13}, {47, 19}}</string>
 						<reference key="NSSuperview" ref="57894147"/>
+						<reference key="NSWindow"/>
 						<string key="NSReuseIdentifierKey">_NS:2328</string>
 						<bool key="NSEnabled">YES</bool>
 						<object class="NSButtonCell" key="NSCell" id="793934613">
@@ -453,6 +452,7 @@ aWNlbnNlA</string>
 						<int key="NSvFlags">268</int>
 						<string key="NSFrame">{{8, 8}, {28, 30}}</string>
 						<reference key="NSSuperview" ref="57894147"/>
+						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="183931099"/>
 						<string key="NSReuseIdentifierKey">_NS:3767</string>
 						<bool key="NSEnabled">YES</bool>
@@ -479,6 +479,7 @@ aWNlbnNlA</string>
 						<int key="NSvFlags">268</int>
 						<string key="NSFrame">{{39, 12}, {131, 22}}</string>
 						<reference key="NSSuperview" ref="57894147"/>
+						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="309445474"/>
 						<string key="NSReuseIdentifierKey">_NS:880</string>
 						<bool key="NSEnabled">YES</bool>
@@ -510,6 +511,8 @@ aWNlbnNlA</string>
 					</object>
 				</array>
 				<string key="NSFrameSize">{232, 45}</string>
+				<reference key="NSSuperview"/>
+				<reference key="NSWindow"/>
 				<reference key="NSNextKeyView" ref="567572385"/>
 				<string key="NSReuseIdentifierKey">_NS:1145</string>
 				<string key="NSClassName">NSView</string>
@@ -521,8 +524,9 @@ aWNlbnNlA</string>
 					<object class="NSTextField" id="932897409">
 						<reference key="NSNextResponder" ref="536281108"/>
 						<int key="NSvFlags">268</int>
-						<string key="NSFrame">{{6, 239}, {383, 66}}</string>
+						<string key="NSFrame">{{6, 238}, {383, 77}}</string>
 						<reference key="NSSuperview" ref="536281108"/>
+						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="750053101"/>
 						<string key="NSReuseIdentifierKey">_NS:335</string>
 						<string key="NSAntiCompressionPriority">{250, 750}</string>
@@ -530,12 +534,7 @@ aWNlbnNlA</string>
 						<object class="NSTextFieldCell" key="NSCell" id="589764029">
 							<int key="NSCellFlags">67108864</int>
 							<int key="NSCellFlags2">272891904</int>
-							<string type="base64-UTF8" key="NSContents">Q2xpY2sgb24gdGhlIEludGVyZmFjZSB0aGF0IHlvdSB3b3VsZCBsaWtlIHRvIGNoYW5nZSB0aGUgTUFD
-IChNZWRpYSBBY2Nlc3MgQ29udHJvbGwpIGFkZHJlc3MgZm9yIGFuZCBjbGljayBvbiAiQXBwbHkiLiBZ
-b3Ugd2lsbCBiZSBhc2tlZCBmb3IgeW91ciBhZG1pbmlzdHJhdG9yIHBhc3N3b3JkLgoKSWYgdGhlIGNo
-YW5nZSB3YXMgbm90IHN1Y2Nlc3NmdWwsIHlvdSBwcm9iYWJseSBjaG9zZSBhIGJhZCBNQUMgYWRkcmVz
-cy4gTm90ZSB0aGF0IHlvdSBoYXZlIHRvIGhhdmUgV2ktRmkgYWN0aXZhdGVkIGluIG9yZGVyIHRvIGNo
-YW5nZSBpdHMgTUFDIGFkZHJlc3MuA</string>
+							<string key="NSContents">Click on the Interface that you would like to change the MAC (Media Access Control) address for and click on "Apply."  You will be asked for your administrator password three times:  once to change MAC, once to bring the Interface down, and once more to bring the Interface back up.  If the change was not successful, you probably chose a bad MAC address.  Note that you have to have Wi-Fi activated in order to change its MAC address.</string>
 							<reference key="NSSupport" ref="22"/>
 							<string key="NSCellIdentifier">_NS:335</string>
 							<reference key="NSControlView" ref="932897409"/>
@@ -547,8 +546,9 @@ YW5nZSBpdHMgTUFDIGFkZHJlc3MuA</string>
 					<object class="NSTextField" id="161809154">
 						<reference key="NSNextResponder" ref="536281108"/>
 						<int key="NSvFlags">268</int>
-						<string key="NSFrame">{{6, 307}, {80, 14}}</string>
+						<string key="NSFrame">{{6, 317}, {80, 14}}</string>
 						<reference key="NSSuperview" ref="536281108"/>
+						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="932897409"/>
 						<string key="NSReuseIdentifierKey">_NS:3805</string>
 						<bool key="NSEnabled">YES</bool>
@@ -571,8 +571,9 @@ YW5nZSBpdHMgTUFDIGFkZHJlc3MuA</string>
 					<object class="NSTextField" id="750053101">
 						<reference key="NSNextResponder" ref="536281108"/>
 						<int key="NSvFlags">268</int>
-						<string key="NSFrame">{{6, 223}, {80, 11}}</string>
+						<string key="NSFrame">{{6, 227}, {80, 11}}</string>
 						<reference key="NSSuperview" ref="536281108"/>
+						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="492219282"/>
 						<string key="NSReuseIdentifierKey">_NS:3805</string>
 						<bool key="NSEnabled">YES</bool>
@@ -593,6 +594,7 @@ YW5nZSBpdHMgTUFDIGFkZHJlc3MuA</string>
 						<int key="NSvFlags">268</int>
 						<string key="NSFrame">{{7, 10}, {388, 209}}</string>
 						<reference key="NSSuperview" ref="536281108"/>
+						<reference key="NSWindow"/>
 						<string key="NSReuseIdentifierKey">_NS:335</string>
 						<string key="NSAntiCompressionPriority">{250, 750}</string>
 						<bool key="NSEnabled">YES</bool>
@@ -600,24 +602,24 @@ YW5nZSBpdHMgTUFDIGFkZHJlc3MuA</string>
 							<int key="NSCellFlags">67108864</int>
 							<int key="NSCellFlags2">272891904</int>
 							<object class="NSMutableString" key="NSContents">
-								<bytes key="NS.bytes">Q29weXJpZ2h0IMKpIDIwMTMgZnVua2Vuc3R1cm0uCgpQZXJtaXNzaW9uIGlzIGhlcmVieSBncmFudGVk
-LCBmcmVlIG9mIGNoYXJnZSwgdG8gYW55IHBlcnNvbiBvYnRhaW5pbmcgYSBjb3B5IG9mIHRoaXMgc29m
-dHdhcmUgYW5kIGFzc29jaWF0ZWQgZG9jdW1lbnRhdGlvbiBmaWxlcyAodGhlICJTb2Z0d2FyZSIpLCB0
-byBkZWFsIGluIHRoZSBTb2Z0d2FyZSB3aXRob3V0IHJlc3RyaWN0aW9uLCBpbmNsdWRpbmcgd2l0aG91
-dCBsaW1pdGF0aW9uIHRoZSByaWdodHMgdG8gdXNlLCBjb3B5LCBtb2RpZnksIG1lcmdlLCBwdWJsaXNo
-LCBkaXN0cmlidXRlLCBzdWJsaWNlbnNlLCBhbmQvb3Igc2VsbCBjb3BpZXMgb2YgdGhlIFNvZnR3YXJl
-LCBhbmQgdG8gcGVybWl0IHBlcnNvbnMgdG8gd2hvbSB0aGUgU29mdHdhcmUgaXMgZnVybmlzaGVkIHRv
-IGRvIHNvLCBzdWJqZWN0IHRvIHRoZSBmb2xsb3dpbmcgY29uZGl0aW9uczoKClRoZSBhYm92ZSBjb3B5
-cmlnaHQgbm90aWNlIGFuZCB0aGlzIHBlcm1pc3Npb24gbm90aWNlIHNoYWxsIGJlIGluY2x1ZGVkIGlu
-IGFsbCBjb3BpZXMgb3Igc3Vic3RhbnRpYWwgcG9ydGlvbnMgb2YgdGhlIFNvZnR3YXJlLgoKVEhFIFNP
-RlRXQVJFIElTIFBST1ZJREVEICJBUyBJUyIsIFdJVEhPVVQgV0FSUkFOVFkgT0YgQU5ZIEtJTkQsIEVY
-UFJFU1MgT1IgSU1QTElFRCwgSU5DTFVESU5HIEJVVCBOT1QgTElNSVRFRCBUTyBUSEUgV0FSUkFOVElF
-UyBPRiBNRVJDSEFOVEFCSUxJVFksIEZJVE5FU1MgRk9SIEEgUEFSVElDVUxBUiBQVVJQT1NFIEFORCBO
-T05JTkZSSU5HRU1FTlQuIElOIE5PIEVWRU5UIFNIQUxMIFRIRSBBVVRIT1JTIE9SIENPUFlSSUdIVCBI
-T0xERVJTIEJFIExJQUJMRSBGT1IgQU5ZIENMQUlNLCBEQU1BR0VTIE9SIE9USEVSIExJQUJJTElUWSwg
-V0hFVEhFUiBJTiBBTiBBQ1RJT04gT0YgQ09OVFJBQ1QsIFRPUlQgT1IgT1RIRVJXSVNFLCBBUklTSU5H
-IEZST00sIE9VVCBPRiBPUiBJTiBDT05ORUNUSU9OIFdJVEggVEhFIFNPRlRXQVJFIE9SIFRIRSBVU0Ug
-T1IgT1RIRVIgREVBTElOR1MgSU4gVEhFIFNPRlRXQVJFLg</bytes>
+								<bytes key="NS.bytes">Q29weXJpZ2h0IMKpIDIwMTMuCgpQZXJtaXNzaW9uIGlzIGhlcmVieSBncmFudGVkLCBmcmVlIG9mIGNo
+YXJnZSwgdG8gYW55IHBlcnNvbiBvYnRhaW5pbmcgYSBjb3B5IG9mIHRoaXMgc29mdHdhcmUgYW5kIGFz
+c29jaWF0ZWQgZG9jdW1lbnRhdGlvbiBmaWxlcyAodGhlICJTb2Z0d2FyZSIpLCB0byBkZWFsIGluIHRo
+ZSBTb2Z0d2FyZSB3aXRob3V0IHJlc3RyaWN0aW9uLCBpbmNsdWRpbmcgd2l0aG91dCBsaW1pdGF0aW9u
+IHRoZSByaWdodHMgdG8gdXNlLCBjb3B5LCBtb2RpZnksIG1lcmdlLCBwdWJsaXNoLCBkaXN0cmlidXRl
+LCBzdWJsaWNlbnNlLCBhbmQvb3Igc2VsbCBjb3BpZXMgb2YgdGhlIFNvZnR3YXJlLCBhbmQgdG8gcGVy
+bWl0IHBlcnNvbnMgdG8gd2hvbSB0aGUgU29mdHdhcmUgaXMgZnVybmlzaGVkIHRvIGRvIHNvLCBzdWJq
+ZWN0IHRvIHRoZSBmb2xsb3dpbmcgY29uZGl0aW9uczoKClRoZSBhYm92ZSBjb3B5cmlnaHQgbm90aWNl
+IGFuZCB0aGlzIHBlcm1pc3Npb24gbm90aWNlIHNoYWxsIGJlIGluY2x1ZGVkIGluIGFsbCBjb3BpZXMg
+b3Igc3Vic3RhbnRpYWwgcG9ydGlvbnMgb2YgdGhlIFNvZnR3YXJlLgoKVEhFIFNPRlRXQVJFIElTIFBS
+T1ZJREVEICJBUyBJUyIsIFdJVEhPVVQgV0FSUkFOVFkgT0YgQU5ZIEtJTkQsIEVYUFJFU1MgT1IgSU1Q
+TElFRCwgSU5DTFVESU5HIEJVVCBOT1QgTElNSVRFRCBUTyBUSEUgV0FSUkFOVElFUyBPRiBNRVJDSEFO
+VEFCSUxJVFksIEZJVE5FU1MgRk9SIEEgUEFSVElDVUxBUiBQVVJQT1NFIEFORCBOT05JTkZSSU5HRU1F
+TlQuIElOIE5PIEVWRU5UIFNIQUxMIFRIRSBBVVRIT1JTIE9SIENPUFlSSUdIVCBIT0xERVJTIEJFIExJ
+QUJMRSBGT1IgQU5ZIENMQUlNLCBEQU1BR0VTIE9SIE9USEVSIExJQUJJTElUWSwgV0hFVEhFUiBJTiBB
+TiBBQ1RJT04gT0YgQ09OVFJBQ1QsIFRPUlQgT1IgT1RIRVJXSVNFLCBBUklTSU5HIEZST00sIE9VVCBP
+RiBPUiBJTiBDT05ORUNUSU9OIFdJVEggVEhFIFNPRlRXQVJFIE9SIFRIRSBVU0UgT1IgT1RIRVIgREVB
+TElOR1MgSU4gVEhFIFNPRlRXQVJFLg</bytes>
 							</object>
 							<reference key="NSSupport" ref="22"/>
 							<string key="NSCellIdentifier">_NS:335</string>
@@ -628,8 +630,9 @@ T1IgT1RIRVIgREVBTElOR1MgSU4gVEhFIFNPRlRXQVJFLg</bytes>
 						<bool key="NSAllowsLogicalLayoutDirection">NO</bool>
 					</object>
 				</array>
-				<string key="NSFrameSize">{397, 330}</string>
+				<string key="NSFrameSize">{397, 340}</string>
 				<reference key="NSSuperview"/>
+				<reference key="NSWindow"/>
 				<reference key="NSNextKeyView" ref="161809154"/>
 				<string key="NSReuseIdentifierKey">_NS:1145</string>
 				<string key="NSClassName">NSView</string>

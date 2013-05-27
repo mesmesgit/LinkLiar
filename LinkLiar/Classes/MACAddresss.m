@@ -10,8 +10,9 @@
 + (NSString*) random {
   // We will perform this with an Array that holds the HEX values
   NSMutableArray *components = [[[NSMutableArray alloc] init] autorelease];
-  // Six times we will add something to the Array
-  for (NSInteger i = 0; i < 6; i++) {
+    
+   // Three times we will add something to the Array
+  for (NSInteger i = 0; i < 3; i++) {
     // Each time we add two random HEX values combined in one NSString. E.g. "AF" or "5C"
     NSString *component = [[[NSString alloc] initWithFormat:@"%1X%1X", arc4random() % 15, arc4random() % 15] autorelease];
     // Please in lower case

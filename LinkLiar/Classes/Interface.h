@@ -22,5 +22,7 @@
 // Instance Methods
 - (NSString*) softMAC;
 - (void) applyAddress:(MACAddresss*)address;
+- (void) bringIntfcDown;
+- (void) bringIntfcUp;
 
 @end
