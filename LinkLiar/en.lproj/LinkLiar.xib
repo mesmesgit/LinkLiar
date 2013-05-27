@@ -319,6 +319,7 @@
 							<string key="NSFrame">{{625, 17}, {25, 25}}</string>
 							<reference key="NSSuperview" ref="1037298196"/>
 							<reference key="NSWindow"/>
+							<reference key="NSNextKeyView"/>
 							<string key="NSReuseIdentifierKey">_NS:3837</string>
 							<bool key="NSEnabled">YES</bool>
 							<object class="NSButtonCell" key="NSCell" id="144716306">
@@ -349,7 +350,7 @@
 							<object class="NSTextFieldCell" key="NSCell" id="1052766846">
 								<int key="NSCellFlags">67108864</int>
 								<int key="NSCellFlags2">272630272</int>
-								<string type="base64-UTF8" key="NSContents">TGlua0xpYXIgdk1FUwrCqSAyMDEzClB1Ymxpc2hlZCB1bmRlciBNSVQgbGljZW5zZQ</string>
+								<string type="base64-UTF8" key="NSContents">TGlua0xpYXIgdjAuMS4yCsKpIDIwMTMKUHVibGlzaGVkIHVuZGVyIE1JVCBsaWNlbnNlA</string>
 								<object class="NSFont" key="NSSupport" id="22">
 									<string key="NSName">LucidaGrande</string>
 									<double key="NSSize">9</double>
@@ -425,6 +426,7 @@
 						<string key="NSFrame">{{174, 13}, {47, 19}}</string>
 						<reference key="NSSuperview" ref="57894147"/>
 						<reference key="NSWindow"/>
+						<reference key="NSNextKeyView"/>
 						<string key="NSReuseIdentifierKey">_NS:2328</string>
 						<bool key="NSEnabled">YES</bool>
 						<object class="NSButtonCell" key="NSCell" id="793934613">
@@ -595,6 +597,7 @@
 						<string key="NSFrame">{{7, 10}, {388, 209}}</string>
 						<reference key="NSSuperview" ref="536281108"/>
 						<reference key="NSWindow"/>
+						<reference key="NSNextKeyView"/>
 						<string key="NSReuseIdentifierKey">_NS:335</string>
 						<string key="NSAntiCompressionPriority">{250, 750}</string>
 						<bool key="NSEnabled">YES</bool>

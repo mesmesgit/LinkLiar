@@ -374,7 +374,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LinkLiar/LinkLiar-Prefix.pch";
 				INFOPLIST_FILE = "LinkLiar/LinkLiar-Info.plist";
-				INSTALL_PATH = "$(HOME)/Library/PreferencePanes";
+				INSTALL_PATH = "$(HOME)/LinkLiar/latest_build";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = prefPane;
 			};
@@ -390,7 +390,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LinkLiar/LinkLiar-Prefix.pch";
 				INFOPLIST_FILE = "LinkLiar/LinkLiar-Info.plist";
-				INSTALL_PATH = "$(HOME)/Library/PreferencePanes";
+				INSTALL_PATH = "$(HOME)/LinkLiar/latest_build";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = prefPane;
 			};
