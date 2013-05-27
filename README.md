@@ -8,6 +8,10 @@ A Mac OS X (> 10.7) Preference Pane to setup your Link-Layer MAC addresses.
 * [Version 0.1.1](https://github.com/halo/LinkLiar/raw/v0.1.1/latest_build/LinkLiar.zip) (Mountain Lion)
 * [Version 0.1.2](https://raw.github.com/mesmesgit/LinkLiar/test1/latest_build/LinkLiar.prefPane.zip) (Mountain Lion)
 
+### Installation
+
+To install, drag LinkLiar.prefPane to the bottom portion ("Other") of your System Preferences window.
+
 ### Screenshot
 
 ![screenshot](https://raw.github.com/mesmesgit/LinkLiar/test1/screenshot.png)
