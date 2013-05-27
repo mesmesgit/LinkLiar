@@ -10,7 +10,7 @@ A Mac OS X (> 10.7) Preference Pane to setup your Link-Layer MAC addresses.
 
 ### Screenshot
 
-![screenshot](https://raw.github.com/mesmesgit/LinkLiar/master/screenshot.png)
+![screenshot](https://raw.github.com/mesmesgit/LinkLiar/test1/screenshot.png)
 
 ### Copyright
 
